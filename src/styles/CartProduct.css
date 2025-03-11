@@ -1,0 +1,177 @@
+/* Cart Container - 95% Width */
+.cart-container {
+    max-width: 95%;
+    margin: 2% auto;
+    background: #f6f6f6;
+    padding: 1%;
+    border-radius: 1%;
+    height: fit-content;
+}
+
+/* Shopping Cart Title */
+.cart-title {
+    font-size: 2vw;
+    font-weight: bold;
+}
+.nee{
+    margin-top: 2%;
+}
+
+/* Grid Layout for Cart Items */
+.cart-item {
+    display: grid;
+    grid-template-columns: 18% 50% 15%;
+    gap: 3%;
+    align-items: center;
+    background: #fff;
+    padding: 2%;
+    border-radius: 1%;
+    margin-bottom: 1.5%;
+}
+
+/* Product Image */
+.product-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 8%;
+}
+
+/* Product Details */
+.product-details {
+    font-size: 1.2vw;
+}
+
+.stock {
+    color: #008000;
+    font-weight: bold;
+}
+
+.shipping {
+    color: #555;
+}
+
+.fulfilled-icon {
+    width: 8%;
+    height: 100%;
+    display: block;
+    margin: 1% 0;
+}
+
+.gift-option {
+    display: flex;
+    align-items: center;
+    gap: 2%;
+    font-size: 1.2vw;
+    margin: 1% 0;
+}
+/* Price Section */
+.price-section {
+    text-align: right;
+    padding: 5%;
+    width: 95%; /* Adjusted for 95% width */
+}
+
+/* Discount Badge & Limited Time */
+.discount-container {
+    display: flex;
+    align-items: center;
+    gap: 3.5%;
+    /* border: 2px solid; */
+    width: 120%;
+}
+
+.discount-badge {
+    background: rgb(177, 34, 34);
+    color: white;
+    font-size: 1.2vw;
+    font-weight: bold;
+    padding: 1% 2%;
+    border-radius: 5%;
+    display: inline-block;
+}
+
+.limited-time {
+    color: rgb(177, 34, 34);
+    font-size: 1.2vw;
+    font-weight: bold;
+}
+
+/* Price and MRP */
+.price {
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+.mrp {
+    font-size: 1vw;
+    color: #555;
+}
+
+/* Quantity and Action Links in Same Line */
+.quantity-action-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+    margin-top: 1%;
+    /* border: 2px solid; */
+}
+
+/* Quantity Control - Fixed Issue */
+.quantity-control {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid orange;
+    border-radius: 10px;
+    gap: 10px;
+    max-width: 180px; /* Ensures layout consistency */
+}
+
+/* Ensure Icons Are Properly Visible */
+.icon {
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+
+/* Quantity Box */
+.quantity-box {
+    border: 0.1vw solid #ccc;
+    padding: 5px 10px;
+    font-weight: bold;
+    border-radius: 5%;
+    background: #fff;
+}
+
+/* Action Links */
+.action-links {
+    display: flex;
+    gap: 2%;
+    width: 80%;
+    align-items: center;
+}
+
+.action-links a,.gift-option a {
+    color: #0356aa;
+    text-decoration: none;
+    font-size: 1vw;
+}
+.action-links a :hover,.gift-option a:hover{
+    text-decoration: underline;
+}
+
+/* Subtotal Section */
+.subtotal {
+    font-size: 2vw;
+    font-weight: bold;
+    text-align: right;
+}
+
+/* media query */
+@media all and (max-width:500px){
+    .action-links{
+        margin-left: 10%;
+        font-size:medium;
+    }
+}

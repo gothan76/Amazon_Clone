@@ -1,0 +1,88 @@
+#sidebar {
+  width: 17%;
+  padding: 1%;
+  margin: 2% 2% 2% 0px;
+  border: 1px solid gray;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  height: fit-content;
+}
+.goth {
+  display: flex;
+  justify-content: space-around;
+    align-items: center;
+  flex-direction: column;
+  gap: 5px;
+}
+.goth .kdd {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.goth .kdd h5 {
+    margin: 0; /* Avoid unwanted spacing */
+}
+.goth .kdd a {
+    margin-left:auto; /* Pushes it to the right */
+}
+#rupee {
+  font-size: 2rem;
+}
+#sidebar #amazon {
+  height: 1.2rem;
+  width: 4.2rem;
+}
+#sidebar a {
+  color: #377bb8;
+}
+#sidebar a:hover {
+  color: #365991;
+}
+#loca {
+  width: 15px;
+  height: 15px;
+  margin-right: 2%;
+  margin-top: 5%;
+}
+.pg {
+  text-decoration: underline;
+}
+#stk {
+  margin: 4% 0px 2% 0px;
+}
+#form input {
+  margin-right: 2%;
+}
+
+#btns {
+  margin-top: 3%;
+  display: flex;
+  flex-direction: column;
+}
+#btns button {
+  padding: 5px;
+  border-radius: 10px;
+  margin-bottom: 6%;
+  width: 70%;
+  cursor: pointer;
+}
+#btns #crt {
+  background-color: #f0e109e1;
+}
+#btns #crt:hover {
+  background-color: #ffee00e1;
+}
+#btns #buy {
+  background-color: #f2822c;
+}
+#btns #buy:hover {
+  background-color: #f9a11d;
+}
+#box {
+  padding: 4%;
+  margin-top: 7%;
+  width: 65%;
+  border-radius: 10px;
+}

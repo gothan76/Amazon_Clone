@@ -1,0 +1,43 @@
+@media all and (max-width: 500px) {
+  /* hoverpreview */
+  #product {
+    flex-direction: column;
+  }
+  #dwn {
+    display: none;
+  }
+  #whole {
+    flex-direction: column-reverse;
+    width: 80vw;
+  }
+  #imagelist {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 12%;
+  }
+  /* content */
+  #left {
+    width: 80vw;
+  }
+  #left #model p {
+    font-size: larger;
+  }
+  /* specification */
+  #specification #abt,
+  #specification #table,
+  #specification #color {
+    display: none;
+  }
+  /* sidebar */
+  #sidebar {
+    width: 60vw;
+    margin-left: 5%;
+  }
+  .sl {
+    margin-bottom: 15px;
+    position: relative;
+    top: 10px;
+    /* border: 2px solid; */
+  }
+}

@@ -1,0 +1,169 @@
+.footer {
+  background-color: #232f3e;
+  color: white;
+  padding: 2%;
+  text-align: center;
+  width: 96%; /* Make sure it takes full width */
+  /* margin-top: 78%; Adjust this value as needed */
+}
+.footer-home-footer {
+  background-color: #232f3e;
+  color: white;
+  padding: 2%;
+  text-align: center;
+  width: 96%; /* Make sure it takes full width */
+  margin-top: -70px;
+}
+
+.footer a,
+.footer-home-footer a {
+  display: block;
+  background-color: #37475a;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer a:hover,
+.footer-home-footer a {
+  background-color: #485769;
+}
+
+/* ✅ Footer sections */
+.footer-sections {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2%;
+  padding: 2%;
+  text-align: left;
+}
+
+.footer-sections h4 {
+  margin-bottom: 5%;
+  font-size: 1.1em;
+}
+
+.footer-sections ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-sections li {
+  margin-bottom: 5px;
+  font-size: 0.9em;
+  cursor: pointer;
+}
+
+.footer-sections li:hover {
+  text-decoration: underline;
+}
+/* ✅ Footer Bottom Section */
+.footer-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 20px 0;
+  flex-wrap: wrap;
+}
+
+/* ✅ Amazon Logo Styling (First Child) */
+.footer-bottom div:first-child img {
+  width: 55%;
+  margin-top: 20%;
+}
+
+/* ✅ 2nd and 3rd Child Styling */
+.footer-bottom div:nth-child(2),
+.footer-bottom div:nth-child(3) {
+  display: flex;
+  align-items: center;
+  border: 1px solid white;
+}
+.footer-bottom div:nth-child(2) img,
+.footer-bottom div:nth-child(3) img {
+  width: 20px;
+  height: 21px;
+  padding: 3px;
+}
+
+.footer-bottom div:nth-child(2) p,
+.footer-bottom div:nth-child(3) p {
+  padding: 5px 10px;
+  background-color: transparent;
+  font-size: 0.9em;
+}
+#products {
+  min-height: 100vh;
+}
+/* ✅ Footer End Section */
+.footer-end {
+  background-color: #131a22;
+  color: white;
+  padding: 2% 5%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  text-align: left;
+}
+
+.footer-end div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.footer-end ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-end h4 {
+  font-size: 1em;
+  margin-bottom: 10px;
+  color: #ddd;
+}
+
+.footer-end li {
+  font-size: 0.85em;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.footer-end li:hover {
+  text-decoration: underline;
+}
+
+/* ✅ Responsive Fixes */
+@media (max-width: 768px) {
+  .footer-end {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-end div {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+@media all and (max-width:500px){
+  .footer-end{
+    display: none;
+  }
+  .footer-home-footer,.footer{
+    font-size:small;
+  }
+  .footer-home-footer{
+    margin-top: 190%;
+  }
+}
+@media all and (max-width:410px){
+  .footer-home-footer{
+    margin-top: 235%;
+  }
+}

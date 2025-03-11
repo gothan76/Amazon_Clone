@@ -1,0 +1,41 @@
+.navbar2 {
+  display: flex;
+  background-color: #022030;
+  color: white;
+  padding: 1px;
+}
+#menu {
+  width: 30px;
+  height: 30px;
+  border: none;
+}
+
+#ul > ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#ul > ul > li {
+  display: flex;
+  padding: 4px;
+  margin: 2px;
+  margin-left: 12px;
+}
+#ul > ul > li:hover {
+  box-shadow: 0px 0px 1px 1px white;
+}
+#div {
+  display: flex;
+  align-items: center;
+  width: auto;
+}
+#div:hover {
+  border: 2px solid;
+}
+/* media query */
+@media all and (max-width:500px){
+  .navbar2{
+    display: none;
+    /* background-color: aqua; */
+  }
+}

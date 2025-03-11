@@ -1,0 +1,94 @@
+#left {
+  width: 33%;
+  padding: 1%;
+  margin: 2%;
+}
+#one {
+  display: flex;
+  flex-direction: column;
+}
+#one #model p {
+  font-size: 1.6rem;
+}
+#ratings {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+#rtng {
+  display: flex;
+  margin-left: 10px;
+  gap: 15px;
+  height: fit-content;
+}
+#arr {
+  width: 15px;
+  height: 15px;
+}
+#rtng a:hover,
+#one a:hover {
+  text-decoration: underline;
+}
+#ratings a,
+#one a {
+  text-decoration: none;
+}
+.rh {
+  margin: 1% 0px;
+}
+/* id two */
+#two {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+#ltd {
+  width: 130px;
+  height: 30px;
+  font-size: 12px;
+  margin-bottom: 3px;
+  background-color: #d33227;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+#discount {
+  color: red;
+  font-size: x-large;
+}
+#spn {
+  color: black;
+  margin-left: 7px;
+}
+#full {
+  width: 20%;
+  height: 20px;
+}
+h5 {
+  font-weight: 500;
+  font-size: medium;
+}
+#emi {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: medium;
+}
+#emi img {
+  height: 15px;
+  width: 15px;
+}
+/* id offer */
+#offer {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+#offer img {
+  width: 30px;
+  height: 30px;
+}
+

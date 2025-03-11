@@ -1,0 +1,120 @@
+#specification {
+  width: 100%;
+}
+#specification h4 {
+  margin-bottom: 2%;
+}
+#specification .color {
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+#specification .spn {
+  font-weight: 600;
+}
+#mobile {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 2%;
+}
+.cell {
+  border: 1px solid;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.cell:hover {
+  border: 2px solid #17a2c2;
+  box-shadow: 5px 5px 5px;
+}
+.cell img {
+  width: 95%;
+  height: 70px;
+}
+.cell img,
+h5 {
+  font-weight: 600;
+  font-size: 0.8rem;
+  padding: 0;
+  margin: 0;
+}
+.cell a {
+  text-decoration: none;
+  color: #17a2c2;
+  font-size: 0.7rem;
+}
+#btnclone {
+  display: flex;
+  gap: 20px;
+  cursor: pointer;
+  margin-bottom: 2%;
+}
+#btnclone h3 {
+  padding: 5px;
+  height: 30px;
+  font-size: medium;
+  font-weight: 400;
+  border-radius: 5px;
+  border: 2px solid;
+}
+#btnclone h3:hover {
+  border: 3px solid #17a2c2;
+  box-shadow: 5px 5px 5px;
+  background-color: lightskyblue;
+}
+#table {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 2% 2% 0px;
+}
+#table .allign {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#table .allign h4 {
+  font-weight: 400;
+  flex: 1;
+}
+
+#table .allign .brand {
+  font-weight: 600;
+  flex: 1;
+  text-align: left;
+}
+#spn {
+  margin-bottom: 2%;
+}
+#spn_about {
+  font-weight: 700;
+}
+#abt {
+  padding: 5px 5px 5px 15px;
+}
+#abt li {
+  gap: 10px;
+}
+#msg {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  margin-top: 7px;
+}
+#mess {
+  display: flex;
+}
+.cs {
+  color: #0fcbf5;
+  font-size: 0.9rem;
+  margin-top: 2%;
+}
+#csm{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: fit-content;
+}
+.cs:hover {
+  text-decoration: underline;
+  color: #365991;
+}
