@@ -169,7 +169,7 @@
 } */
 @media all and (max-width: 409px) {
   .footer-home-footer {
-/*     margin-top: 85%; */
+    margin-top: -20%;
     font-size: x-small;
   }
 }
