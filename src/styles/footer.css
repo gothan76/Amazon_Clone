@@ -162,8 +162,14 @@
     margin-top: 190%;
   }
 }
-@media all and (max-width:410px){
+/* @media all and (max-width:410px){
   .footer-home-footer{
     margin-top: 85%;
+  }
+} */
+@media all and (max-width: 410px) {
+  .footer-home-footer {
+    margin-top: 445%;
+    font-size: x-small;
   }
 }
