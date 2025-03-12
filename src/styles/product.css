@@ -54,11 +54,25 @@
     margin-top:-110% ;
   }
 }
-@media all and (max-width:409px){
+/* @media all and (max-width:409px){
   #products{
     margin-top: -140%;
     margin-right: 10%;
     font-size: x-small;
 
+  }
+} */
+@media all and (max-width: 409px) {
+  #products {
+    margin-top: 290%;
+    font-size: small;
+    width: 84%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 5.5%;
+  }
+  .photos,#products h3,#products a{
+    width: fit-content;
   }
 }
