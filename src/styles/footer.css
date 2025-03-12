@@ -167,9 +167,9 @@
     margin-top: 85%;
   }
 } */
-@media all and (max-width: 410px) {
+@media all and (max-width: 409px) {
   .footer-home-footer {
-    margin-top: 450%;
+/*     margin-top: 450%; */
     font-size: x-small;
   }
 }
